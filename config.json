@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Venu Theagarajan"
+  },
+  "text": {
+    "more": "The following Lineage information are tracked:\n1. Project -\u003e Impacted Capabilities\n2. Project -\u003e Impacted Attributes\n3. Attributes -\u003e Impacted Systems\n4. Attributes -\u003e Change Frequency",
+    "intro": "The documentation comprises the following Nodes:\n1. Projects\n2. Capabilities\n3. Attributes\n4. Systems",
+    "title": "Integration: Day-1 Project Impacts"
+  },
+  "legend": {
+    "edgeLabel": "the lineage of relationship (associated impact) is represented by the connecting arrows",
+    "colorLabel": "color represents grouping by Attribute, System, Project, Capability \u0026 Frequency of update",
+    "nodeLabel": "Individual components of the groups are represented as nodes"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
